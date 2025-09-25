@@ -8,7 +8,7 @@ This site is ready for GitHub Pages. To publish:
 4) Your site will appear at `https://<your-username>.github.io/niknaz-portfolio/`
 
 ## Update your resume
-Replace `resume/Niknaz_Sadehvandi_Resume.pdf` with your actual PDF.
+Replace `Niknaz_Sadehvandi_Resume.pdf` with your actual PDF.
 (Keep the same filename so the download button keeps working.)
 
 Last updated: September 25, 2025

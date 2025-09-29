@@ -1,225 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Niknaz Sadehvandi — Cybersecurity Analyst</title>
-
-  <!-- SEO -->
-  <meta name="title" content="Niknaz Sadehvandi — Cybersecurity Analyst" />
-  <meta name="description" content="Cybersecurity analyst specializing in vulnerability management, digital forensics, and incident response. Portfolio, projects, and resume." />
-  <meta name="robots" content="index,follow" />
-
-  <!-- Open Graph / Social -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Niknaz Sadehvandi — Cybersecurity Analyst" />
-  <meta property="og:description" content="Portfolio, projects, and resume." />
-  <meta property="og:url" content="https://niknaz-65.github.io/niknaz-portfolio/" />
-  <meta property="og:image" content="og-preview.png" /> <!-- Upload og-preview.png for LinkedIn preview -->
-  <meta name="twitter:card" content="summary_large_image" />
-
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="icon" href="favicon.ico">
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <style>
-    /* Your styles here (keep the ones you already have) */
-  </style>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Niknaz Sadehvandi — Cybersecurity Analyst</title>
-
-  <!-- SEO -->
-  <meta name="title" content="Niknaz Sadehvandi — Cybersecurity Analyst" />
-  <meta name="description" content="Cybersecurity analyst specializing in vulnerability management, digital forensics, and incident response. Portfolio, projects, and resume." />
-  <meta name="robots" content="index,follow" />
-
-  <!-- Open Graph / Social (LinkedIn, Twitter, etc.) -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Niknaz Sadehvandi — Cybersecurity Analyst" />
-  <meta property="og:description" content="Portfolio, projects, and resume." />
-  <meta property="og:url" content="https://niknaz-65.github.io/niknaz-portfolio/" />
-  <meta property="og:image" content="og-preview.png" /> <!-- Upload og-preview.png (1200x630) to repo root -->
-  <meta name="twitter:card" content="summary_large_image" />
-
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="icon" href="favicon.ico">
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- Styles -->
+  <title>Niknaz Sadehvandi — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Portfolio of Niknaz Sadehvandi, Cybersecurity Analyst specializing in vulnerability management, DFIR, and incident response." />
   <style>
-    /* Keep your CSS variables + global styles here */
-  </style>
-</head>
-  <style>
-    :root{
-      --bg:#0b1220;           /* deep blue/black */
-      --surface:#0f172a;      /* slate-900 */
-      --card:#111827;         /* gray-900 */
-      --text:#e5e7eb;         /* gray-200 */
-      --muted:#9ca3af;        /* gray-400 */
-      --accent:#06b6d4;       /* cyan-500 */
-      --accent-2:#22d3ee;     /* cyan-400 */
-      --border:#1f2937;       /* gray-800 */
-    }
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0}
-    body{
-      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-      background:linear-gradient(180deg,var(--bg),#0b1322 40%, #0d1830 100%);
-      color:var(--text);
-      line-height:1.6;
-      -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
-    }
-    a{color:var(--accent)}
-    .container{max-width:1100px;margin:0 auto;padding:24px}
-
-    /* Header / Hero */
-    header{
-      padding:64px 0 24px;
-    }
-    .hero{display:grid;gap:12px}
-    h1{font-size:clamp(28px,5vw,42px);margin:0 0 6px}
-    .subtitle{font-weight:500;color:var(--accent-2)}
-    .tagline{max-width:70ch;color:var(--muted)}
-
-    .cta{margin-top:18px;display:flex;gap:12px;flex-wrap:wrap}
-    .btn{display:inline-block;padding:12px 16px;border-radius:12px;border:1px solid var(--border);background:var(--surface);color:var(--text);text-decoration:none;font-weight:600}
-    .btn:hover{border-color:var(--accent);box-shadow:0 0 0 3px rgba(34,211,238,.15)}
-    .btn.secondary{background:transparent;color:var(--accent);border-color:var(--accent)}
-
-    /* Sections */
-    section{padding:28px 0;border-top:1px solid var(--border)}
-    section h2{margin:0 0 12px;font-size:clamp(20px,3.3vw,28px)}
-
-    /* Grid Cards */
-    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-    .card{background:rgba(17,24,39,.6);border:1px solid var(--border);border-radius:16px;padding:16px}
-    .card h3{margin:0 0 6px;font-size:1.05rem}
-    .meta{color:var(--muted);font-size:.9rem}
-    .tags{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 0;padding:0;list-style:none}
-    .tag{border:1px solid var(--border);border-radius:999px;padding:2px 10px;font-size:.8rem;color:var(--muted)}
-
-    /* Lists */
-    .list{display:grid;gap:6px;margin:0;padding-left:18px}
-
-    /* Footer */
-    footer{padding:28px 0;color:var(--muted);text-align:center;border-top:1px solid var(--border)}
-
-    @media (prefers-color-scheme: light){
-      :root{ --bg:#f8fafc; --surface:#fff; --card:#fff; --text:#0f172a; --muted:#475569; --border:#e5e7eb; --accent:#0ea5e9; --accent-2:#0284c7; }
-      body{background:#f8fafc}
-      .card{background:#fff}
-    }
+    /* Minimal helpers in case styles.css is simple */
+    body {font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.55; color:#0f172a; margin:0; background:#fff;}
+    .wrap {max-width: 940px; margin: 0 auto; padding: 32px 20px;}
+    h1 {font-size: 40px; margin: 0 0 8px;}
+    h2 {font-size: 20px; font-weight:600; color:#0a5; margin: 0 0 18px;}
+    p.lead {font-size:18px; color:#334155; margin: 0 0 22px;}
+    .btnrow {display:flex; gap:12px; margin: 18px 0 30px;}
+    .btn {display:inline-block; padding:10px 14px; border:1px solid #cbd5e1; border-radius:10px; text-decoration:none; color:#0f172a; background:#fff;}
+    .btn:hover {background:#f8fafc;}
+    h3 {margin: 26px 0 10px;}
+    .grid {display:grid; gap:16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));}
+    .card {border:1px solid #e2e8f0; border-radius:14px; padding:16px;}
+    .tags {display:flex; flex-wrap:wrap; gap:8px; margin-top:10px;}
+    .tag {font-size:12px; padding:4px 8px; border:1px solid #e2e8f0; border-radius:999px; color:#334155;}
+    ul.clean {margin: 8px 0 0 18px;}
+    ul.clean li {margin:6px 0;}
+    .cols {display:grid; gap:24px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));}
+    footer {margin-top:40px; font-size:14px; color:#64748b;}
   </style>
 </head>
 <body>
-  <div class="container">
+  <main class="wrap">
     <header>
-      <div class="hero" role="banner">
-        <h1>Niknaz Sadehvandi</h1>
-        <div class="subtitle">Cybersecurity Analyst — Vulnerability Management · DFIR · Incident Response</div>
-        <p class="tagline">I help organizations reduce risk and respond quickly to threats by combining hands‑on analysis (Tenable, Splunk, Wireshark, FTK) with clear runbooks and stakeholder communication.</p>
-        <div class="cta">
-          <a class="btn" href="Niknaz_Sadehvandi_Resume.pdf" download="Niknaz_Sadehvandi_Resume.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a>
-          <a class="btn secondary" href="#contact">Contact</a>
-        </div>
+      <h1>Niknaz Sadehvandi</h1>
+      <h2>Cybersecurity Analyst | Vulnerability Management, DFIR, Incident Response</h2>
+      <p class="lead">
+        I help organizations reduce risk and improve response by performing hands-on analysis with Tenable, Splunk, Wireshark, and FTK.
+        I build clear runbooks, streamline investigations, and communicate effectively with engineers, auditors, and leadership.
+      </p>
+      <div class="btnrow">
+        <a class="btn" href="Niknaz_Sadehvandi_Resume.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a>
+        <a class="btn" href="#contact">Contact</a>
       </div>
     </header>
 
-    <main id="content">
-      <!-- Projects / Case Studies -->
-      <section id="projects" aria-labelledby="projects-title">
-        <h2 id="projects-title">Featured Projects</h2>
-        <div class="grid">
-          <article class="card" aria-labelledby="p1-title">
-            <h3 id="p1-title">Windows Intrusion Forensics</h3>
-            <p>Investigated a simulated breach using <strong>FTK Imager</strong>, <strong>Autopsy</strong>, and <strong>Autoruns</strong>; identified persistence, lateral movement, and SSH exfiltration. Delivered a remediation plan (rebuild, IP block, monitoring).</p>
-            <ul class="tags"><li class="tag">DFIR</li><li class="tag">Windows</li><li class="tag">Logs</li></ul>
-          </article>
-          <article class="card" aria-labelledby="p2-title">
-            <h3 id="p2-title">Phishing Response Playbook</h3>
-            <p>Standardized intake → analysis → user coaching; built templates for comms and tracked outcomes. Result: fewer repeat clickers in lab environment and faster resolution times.</p>
-            <ul class="tags"><li class="tag">XDR</li><li class="tag">IR</li><li class="tag">User Education</li></ul>
-          </article>
-          <article class="card" aria-labelledby="p3-title">
-            <h3 id="p3-title">Vulnerability Management Pipeline</h3>
-            <p>Integrated <strong>Tenable</strong> findings into <strong>Splunk</strong> dashboards; authored remediation runbooks; improved prioritization (asset criticality × exploitability) and reporting to leadership.</p>
-            <ul class="tags"><li class="tag">Tenable</li><li class="tag">Splunk</li><li class="tag">Risk</li></ul>
-          </article>
-        </div>
-      </section>
+    <section>
+      <h3>Featured Projects</h3>
+      <div class="grid">
+        <article class="card">
+          <h4>Windows Intrusion Forensics</h4>
+          <p>
+            Investigated a simulated breach with FTK Imager, Autopsy, and Autoruns; identified persistence, lateral movement, and SSH exfiltration.
+            Delivered a remediation plan covering system rebuild, IP blocking, and monitoring.
+          </p>
+          <div class="tags">
+            <span class="tag">DFIR</span><span class="tag">Windows</span><span class="tag">Logs</span>
+          </div>
+        </article>
 
-      <!-- Skills Snapshot -->
-      <section id="skills" aria-labelledby="skills-title">
-        <h2 id="skills-title">Skills</h2>
+        <article class="card">
+          <h4>Phishing Response Playbook</h4>
+          <p>
+            Standardized intake, analysis, and user coaching; created communication templates and tracked outcomes.
+            Result: fewer repeat clickers and faster resolution times.
+          </p>
+          <div class="tags">
+            <span class="tag">XDR</span><span class="tag">IR</span><span class="tag">User Education</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h4>Vulnerability Management Pipeline</h4>
+          <p>
+            Integrated Tenable findings into Splunk dashboards; authored remediation runbooks; prioritized work by asset criticality and exploitability; improved executive reporting.
+          </p>
+          <div class="tags">
+            <span class="tag">Tenable</span><span class="tag">Splunk</span><span class="tag">Risk</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h3>Experience</h3>
+      <div class="card">
+        <h4>Junior Cybersecurity Analyst — Sunset Auto Sales, Charlotte, NC</h4>
+        <p><em>Mar 2020 – Present</em></p>
+        <ul class="clean">
+          <li>Executed IT General Controls testing with strong SOX alignment and audit readiness.</li>
+          <li>Drove process improvements and corrective actions with high on-time resolution.</li>
+          <li>Streamlined documentation of testing procedures; reduced errors and improved efficiency.</li>
+          <li>Led vulnerability triage and incident response; shortened phishing triage time and lowered false positives.</li>
+          <li>Enhanced Splunk detections by integrating threat intel feeds.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h3>Skills</h3>
+      <div class="cols">
         <div class="card">
-          <ul class="list">
-            <li><strong>Security:</strong> Vulnerability Assessments, Incident Response, Digital Forensics, PCI</li>
-            <li><strong>Tools:</strong> Tenable, Splunk, Wireshark, FTK Imager, Autopsy, Autoruns, VirusTotal</li>
-            <li><strong>Platforms:</strong> Windows, Linux, Mac, AWS</li>
-            <li><strong>Programming:</strong> Python, Java, R</li>
+          <strong>Security & Compliance</strong>
+          <ul class="clean">
+            <li>IT General Controls, SOX, audits, corrective actions</li>
+            <li>Incident response, threat hunting, digital forensics</li>
+            <li>Risk management and documentation</li>
           </ul>
         </div>
-      </section>
-
-      <!-- Certifications -->
-      <section id="certs" aria-labelledby="certs-title">
-        <h2 id="certs-title">Certifications</h2>
-        <div class="grid">
-          <article class="card"><h3>Python Basics for Data Science</h3><div class="meta">IBM — Jan 2024</div></article>
-          <article class="card"><h3>R Programming Fundamentals</h3><div class="meta">Stanford Online — Jan 2024</div></article>
-        </div>
-      </section>
-
-      <!-- Education (optional concise) -->
-      <section id="education" aria-labelledby="edu-title">
-        <h2 id="edu-title">Education</h2>
         <div class="card">
-          <p><strong>M.S., Cybersecurity Technology</strong> — University of Maryland Global Campus (GPA 4.0, President’s List)</p>
-          <p><strong>B.S., Information Technology</strong> — University of Phoenix (Magna Cum Laude)</p>
+          <strong>Tools</strong>
+          <ul class="clean">
+            <li>Tenable, Nessus, Splunk, Wireshark</li>
+            <li>FTK Imager, Autopsy, Autoruns, Nmap, VirusTotal</li>
+          </ul>
         </div>
-      </section>
+        <div class="card">
+          <strong>Platforms</strong>
+          <ul class="clean">
+            <li>Windows, Linux, Mac, Active Directory, Office 365</li>
+            <li>AWS; basic Azure</li>
+          </ul>
+        </div>
+        <div class="card">
+          <strong>Programming</strong>
+          <ul class="clean">
+            <li>Python, PowerShell, Bash, Java, R</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-      <!-- Contact -->
-      <section id="contact" aria-labelledby="contact-title">
-        <h2 id="contact-title">Contact</h2>
-        <div class="card" style="text-align:center">
-          <p>
-            <a href="mailto:sadvandniknaz0@gmail.com">sadvandniknaz0@gmail.com</a>
-            &nbsp;·&nbsp;
-            <a href="https://www.linkedin.com/in/niknaz-sadehvandi-a34179325" target="_blank" rel="noopener">LinkedIn</a>
-            &nbsp;·&nbsp;
-            <a href="https://github.com/niknaz-65" target="_blank" rel="noopener">GitHub</a>
-          </p>
-        </div>
-      </section>
-    </main>
+    <section>
+      <h3>Certifications</h3>
+      <ul class="clean">
+        <li>Python Basics for Data Science — IBM, Jan 2024</li>
+        <li>R Programming Fundamentals — Stanford Online, Jan 2024</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Education</h3>
+      <ul class="clean">
+        <li><strong>M.S. Cybersecurity Technology</strong>, University of Maryland Global Campus — GPA 4.0, President’s List</li>
+        <li><strong>B.S. Information Technology</strong>, University of Phoenix — Magna Cum Laude</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <p>
+        <a class="btn" href="mailto:sadvandniknaz0@gmail.com">sadvandniknaz0@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/niknaz-sadehvandi-a34179325" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </section>
 
     <footer>
-      © <span id="year"></span> Niknaz Sadehvandi · Matthews, NC
+      © <span id="y"></span> Niknaz Sadehvandi
     </footer>
-  </div>
-
-  <script>
-    // Set dynamic year in footer
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  </main>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
 </html>

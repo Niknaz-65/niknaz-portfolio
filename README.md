@@ -6,17 +6,18 @@ I specialize in **Vulnerability Management, Digital Forensics (DFIR), and Incide
 ---
 
 ## 🔹 About Me
-- **M.S. Cybersecurity Technology** — University of Maryland Global Campus (4.0 GPA, President’s List)  
-- **B.S. Information Technology** — University of Phoenix (Magna Cum Laude)  
-- 5+ years of experience across vulnerability assessments, compliance audits (SOX, PCI), digital forensics, and enterprise security operations  
+- **M.S. Cybersecurity Technology**: University of Maryland Global Campus (4.0 GPA, President’s List)  
+- **B.S. Information Technology**: University of Phoenix (Magna Cum Laude)  
+- 5+ years of experience in vulnerability assessments, compliance audits (SOX, PCI), digital forensics, and enterprise security operations  
 - Adept at building actionable runbooks, leading investigations, and working with auditors, engineers, and leadership  
+
 
 ---
 
 ## 🔹 Featured Projects
-- **Windows Intrusion Forensics** — Simulated breach analysis with FTK Imager, Autopsy, Autoruns; delivered remediation plan (rebuild, IP block, monitoring).  
-- **Phishing Response Playbook** — Built templates and workflows that reduced repeat phishing clickers and improved resolution times.  
-- **Vulnerability Management Pipeline** — Integrated Tenable into Splunk dashboards; authored remediation playbooks and improved leadership reporting.  
+- **Windows Intrusion Forensics**: Simulated breach analysis with FTK Imager, Autopsy, and Autoruns; delivered remediation plan (rebuild, IP block, monitoring)  
+- **Phishing Response Playbook**: Built templates and workflows that reduced repeat phishing clickers and improved resolution times  
+- **Vulnerability Management Pipeline**: Integrated Tenable into Splunk dashboards; authored remediation playbooks and improved leadership reporting  
 
 ---
 

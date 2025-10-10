@@ -1,4 +1,4 @@
-# Niknaz Sadehvandi — Cybersecurity Analyst
+# Niknaz Sadehvandi, Cybersecurity Analyst
 
 Welcome to my professional portfolio repository.  
 I specialize in **Vulnerability Management, Digital Forensics (DFIR), and Incident Response**, with a strong focus on reducing risk and improving security posture through hands-on technical analysis and clear stakeholder communication.

@@ -69,7 +69,7 @@ I work in IT Support and Helpdesk, and I reinforce that experience with hands-on
 ---
 
 ## 🔹 Resume & Portfolio
-📄 [Download Resume (PDF)](Niknaz_Sadehvandi_Resume.pdf)  
+📄 [Download Resume (PDF)](Niknaz_Sadehvandi_IT_Support_Resume.pdf)    
 🌐 [Live Portfolio Site](https://niknaz-65.github.io/niknaz-portfolio/)  
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/niknaz-sadehvandi-a34179325)  
 

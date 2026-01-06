@@ -3,165 +3,318 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Niknaz Sadehvandi — IT Support & Cybersecurity Projects</title>
+  <title>Niknaz Sadehvandi — Cybersecurity Analyst Portfolio</title>
+
+  <!-- Keep this if you later move the CSS into styles.css -->
   <link rel="stylesheet" href="styles.css" />
-  <meta name="description" content="Portfolio of Niknaz Sadehvandi, IT Support and Helpdesk professional with hands-on cybersecurity projects in log analysis, digital forensics, and network scanning." />
+
+  <meta name="description" content="Portfolio of Niknaz Sadehvandi, Cybersecurity Analyst with hands-on SIEM monitoring, endpoint telemetry, and SOC investigations. Elastic SIEM, Sysmon, Zeek, Splunk." />
+  <meta name="robots" content="index,follow" />
+
   <style>
-    body {font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.55; color:#0f172a; margin:0; background:#fff;}
-    .wrap {max-width: 940px; margin: 0 auto; padding: 32px 20px;}
-    h1 {font-size: 40px; margin: 0 0 8px;}
-    h2 {font-size: 20px; font-weight:600; color:#0a5; margin: 0 0 18px;}
-    p.lead {font-size:18px; color:#334155; margin: 0 0 22px;}
-    .btnrow {display:flex; gap:12px; margin: 18px 0 30px;}
-    .btn {display:inline-block; padding:10px 14px; border:1px solid #cbd5e1; border-radius:10px; text-decoration:none; color:#0f172a; background:#fff;}
-    .btn:hover {background:#f8fafc;}
-    h3 {margin: 26px 0 10px;}
-    .grid {display:grid; gap:16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));}
-    .card {border:1px solid #e2e8f0; border-radius:14px; padding:16px;}
-    .tags {display:flex; flex-wrap:wrap; gap:8px; margin-top:10px;}
-    .tag {font-size:12px; padding:4px 8px; border:1px solid #e2e8f0; border-radius:999px; color:#334155;}
-    ul.clean {margin: 8px 0 0 18px;}
-    ul.clean li {margin:6px 0;}
-    .cols {display:grid; gap:24px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));}
-    footer {margin-top:40px; font-size:14px; color:#64748b;}
+    :root{
+      --bg:#ffffff;
+      --text:#0f172a;
+      --muted:#334155;
+      --border:#e2e8f0;
+      --soft:#f8fafc;
+      --accent:#0ea5e9;
+      --accent2:#22c55e;
+      --shadow:0 1px 0 rgba(15,23,42,.04);
+      --radius:14px;
+    }
+    *{box-sizing:border-box}
+    body{
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      line-height:1.55;
+      color:var(--text);
+      margin:0;
+      background:var(--bg);
+    }
+    .wrap{max-width:980px;margin:0 auto;padding:34px 20px}
+    header{padding-bottom:10px}
+    h1{font-size:42px;letter-spacing:-.02em;margin:0 0 6px}
+    h2{font-size:18px;font-weight:650;color:var(--accent2);margin:0 0 16px}
+    .meta{color:var(--muted);font-size:14px;margin:0 0 14px}
+    p.lead{font-size:18px;color:var(--muted);margin:0 0 18px;max-width:78ch}
+    .btnrow{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 28px}
+    .btn{
+      display:inline-block;
+      padding:10px 14px;
+      border:1px solid var(--border);
+      border-radius:12px;
+      text-decoration:none;
+      color:var(--text);
+      background:#fff;
+      box-shadow:var(--shadow);
+    }
+    .btn:hover{background:var(--soft)}
+    .btn.primary{
+      border-color:rgba(14,165,233,.35);
+      background:rgba(14,165,233,.07);
+    }
+    .btn.primary:hover{background:rgba(14,165,233,.12)}
+    .section{margin-top:26px}
+    h3{margin:22px 0 10px;font-size:18px}
+    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}
+    .card{
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      padding:16px;
+      background:#fff;
+      box-shadow:var(--shadow);
+    }
+    .card h4{margin:0 0 8px;font-size:16px}
+    .card p{margin:0;color:var(--muted)}
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .tag{
+      font-size:12px;
+      padding:4px 8px;
+      border:1px solid var(--border);
+      border-radius:999px;
+      color:var(--muted);
+      background:#fff;
+    }
+    ul.clean{margin:8px 0 0 18px;color:var(--muted)}
+    ul.clean li{margin:6px 0}
+    .cols{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+    .small{font-size:13px;color:var(--muted)}
+    .kbd{
+      font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+      font-size:12px;
+      padding:2px 6px;
+      border:1px solid var(--border);
+      border-bottom-width:2px;
+      border-radius:8px;
+      background:var(--soft);
+      color:#111827;
+    }
+    footer{margin-top:40px;font-size:14px;color:#64748b}
+    .split{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+    .split a{word-break:break-word}
   </style>
 </head>
+
 <body>
   <main class="wrap">
     <header>
       <h1>Niknaz Sadehvandi</h1>
-      <h2>IT Support & Cybersecurity Projects</h2>
-      <p class="lead">
-        IT Support and Helpdesk professional with experience troubleshooting Windows systems, resolving user issues, and managing accounts.
-        I reinforce this with hands-on cybersecurity projects in log analysis, malware sandboxing, digital forensics, and network scanning using tools like Splunk, Wireshark, Nmap, FTK Imager, and Autopsy.
+      <h2>Cybersecurity Analyst • SIEM • Endpoint Telemetry • SOC Investigations</h2>
+
+      <p class="meta">
+        Matthews, NC • <a href="mailto:sadvandniknaz0@gmail.com">sadvandniknaz0@gmail.com</a> •
+        <a href="https://github.com/niknaz-65" target="_blank" rel="noopener">GitHub</a> •
+        <a href="https://www.linkedin.com/in/niknaz-sadehvandi-a34179325" target="_blank" rel="noopener">LinkedIn</a>
       </p>
+
+      <p class="lead">
+        Cybersecurity Analyst with hands-on experience in SIEM monitoring, endpoint telemetry, log analysis, and SOC investigations.
+        Founder of Nikki IT &amp; Security Consulting delivering Elastic SIEM ingestion pipelines, Sysmon and Zeek telemetry,
+        and Windows security assessments aligned with MITRE ATT&amp;CK.
+      </p>
+
       <div class="btnrow">
-        <a class="btn" href="Niknaz_Sadehvandi_IT_Support_Resume.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a>
+        <!-- Match your resume filename -->
+        <a class="btn primary" href="Niknaz_Sadehvandi_Cybersecurity_Analyst_Resume.pdf" target="_blank" rel="noopener">
+          Download Resume (PDF)
+        </a>
+        <a class="btn" href="#projects">Projects</a>
+        <a class="btn" href="#skills">Skills</a>
         <a class="btn" href="#contact">Contact</a>
       </div>
+
+      <p class="small">
+        Tip: keep the PDF name exactly <span class="kbd">Niknaz_Sadehvandi_Cybersecurity_Analyst_Resume.pdf</span> in the same repo folder as this page.
+      </p>
     </header>
 
-    <section>
+    <section id="projects" class="section">
       <h3>Featured Projects</h3>
+
       <div class="grid">
         <article class="card">
-          <h4>Windows Intrusion Forensics (Lab Project)</h4>
+          <h4>Elastic SIEM Endpoint Pipeline (Sysmon + Fleet)</h4>
           <p>
-            Analyzed a Windows image using FTK Imager, Autopsy, and Autoruns to identify persistence mechanisms,
-            suspicious processes, and potential SSH-based exfiltration. Documented findings and drafted a basic remediation plan,
-            including system rebuild and IP/domain blocking.
+            Built a Fleet-managed endpoint telemetry pipeline using Sysmon v15+ and validated visibility for investigations
+            (process creation, network connections, PowerShell logging) with KQL.
           </p>
           <div class="tags">
-            <span class="tag">DFIR (Lab)</span><span class="tag">Windows</span><span class="tag">Logs</span>
+            <span class="tag">Elastic SIEM</span><span class="tag">Sysmon</span><span class="tag">KQL</span><span class="tag">SOC</span>
           </div>
         </article>
 
         <article class="card">
-          <h4>Phishing & Email Analysis (Project)</h4>
+          <h4>Zeek Network Telemetry Ingestion (Filebeat Module)</h4>
           <p>
-            Processed sample phishing emails, inspected headers and URLs, and extracted indicators for reputation checks.
-            Created a simple response checklist and user guidance to reduce repeat clickers in a simulated environment.
+            Deployed Zeek sensor on Ubuntu and ingested structured logs (conn/dns/http) into Elastic SIEM via Filebeat;
+            validated real-time telemetry in Kibana Discover (1,500+ events).
           </p>
           <div class="tags">
-            <span class="tag">Email Analysis</span><span class="tag">IR (Lab)</span><span class="tag">User Education</span>
+            <span class="tag">Zeek</span><span class="tag">Filebeat</span><span class="tag">Elastic</span><span class="tag">Network Logs</span>
           </div>
         </article>
 
         <article class="card">
-          <h4>Network Recon & Log Analysis Toolkit (Python)</h4>
+          <h4>Windows Endpoint Security Audit &amp; Hardening</h4>
           <p>
-            Built a Python script that automates Nmap scanning and produces HTML summaries of open ports and services.
-            Combined this with basic Splunk searches to visualize authentication patterns and detect anomalous login activity.
+            Assessed Windows authentication failures (Event ID 4625), audit policy, firewall rules, and active connections
+            (<span class="kbd">netstat -ano</span>); baselined activity and produced risk-reduction recommendations.
           </p>
           <div class="tags">
-            <span class="tag">Python</span><span class="tag">Nmap</span><span class="tag">Splunk (Lab)</span>
+            <span class="tag">Windows Event Logs</span><span class="tag">Hardening</span><span class="tag">IR</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h4>SOC Dashboarding &amp; Alert Triage (Splunk)</h4>
+          <p>
+            Built dashboards and detections for Windows security events; created triage views to quickly spot anomalous
+            authentication and system activity.
+          </p>
+          <div class="tags">
+            <span class="tag">Splunk</span><span class="tag">SIEM</span><span class="tag">Detection</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h4>Network Recon &amp; Report Automation (Python + Nmap)</h4>
+          <p>
+            Developed an automation wrapper for Nmap-based discovery with structured output and HTML report generation.
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">Nmap</span><span class="tag">Automation</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h4>Entry-Level DFIR &amp; Incident Investigation Labs</h4>
+          <p>
+            Investigated DFIR scenarios involving IIS logs, Base64 decoding, SSH-based exfiltration, and endpoint artifacts
+            using Autopsy, FTK Imager, and Wireshark; extracted IOCs and documented findings.
+          </p>
+          <div class="tags">
+            <span class="tag">DFIR</span><span class="tag">Autopsy</span><span class="tag">FTK Imager</span><span class="tag">Wireshark</span>
           </div>
         </article>
       </div>
     </section>
 
-    <section>
+    <section class="section">
       <h3>Experience</h3>
-      <div class="card">
-        <h4>IT Support Technician — Sunset Auto Sales, Charlotte, NC</h4>
-        <p><em>Mar 2020 – Present</em></p>
-        <ul class="clean">
-          <li>Resolve hardware, software, and basic network issues across Windows workstations and user devices.</li>
-          <li>Perform password resets, access updates, and permission troubleshooting in line with internal policies.</li>
-          <li>Support onboarding/offboarding, account creation, and workstation setup for new and departing staff.</li>
-          <li>Maintain antivirus updates, carry out basic malware cleanup, and monitor endpoint health.</li>
-          <li>Assist with printer setup, workstation imaging, and connectivity issues.</li>
-          <li>Document issues and resolutions in an internal ticket workflow to support consistency and knowledge sharing.</li>
-        </ul>
+
+      <div class="grid">
+        <article class="card">
+          <h4>Nikki IT &amp; Security Consulting — Founder &amp; Cybersecurity Consultant</h4>
+          <p class="small"><em>Dec 2025 – Present • Remote</em></p>
+          <ul class="clean">
+            <li>Engineered Fleet-managed Elastic SIEM ingestion for Sysmon (Event ID 1/3) and PowerShell logging (Event ID 4104); validated investigation workflows with KQL.</li>
+            <li>Deployed Zeek + Filebeat module and verified structured network telemetry in Kibana Discover (1,500+ events).</li>
+            <li>Performed Windows endpoint audits: Event ID 4625 review, audit policy checks, firewall rules, and connection/process correlation for IOC baselining.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h4>Sunset Auto Sales — Cybersecurity / IT Support Technician</h4>
+          <p class="small"><em>Jan 2020 – Present • Charlotte area</em></p>
+          <ul class="clean">
+            <li>Performed malware investigations, log queries, endpoint troubleshooting, MFA enforcement, imaging, and security documentation.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h4>Kafpoush — IT Administrator / Helpdesk</h4>
+          <p class="small"><em>Jan 2012 – Jan 2018</em></p>
+          <ul class="clean">
+            <li>Handled malware remediation, patch management, access control updates, forensic-style system checks, and incident documentation.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h4>Ganjineh — Technical Assistant</h4>
+          <p class="small"><em>Jan 2008 – Jan 2010</em></p>
+          <ul class="clean">
+            <li>Installed and verified CCTV, access control systems, and network infrastructure; supported troubleshooting and maintenance.</li>
+          </ul>
+        </article>
       </div>
     </section>
 
-    <section>
+    <section id="skills" class="section">
       <h3>Skills</h3>
+
       <div class="cols">
         <div class="card">
-          <strong>IT Support & Security Awareness</strong>
+          <strong>SIEM &amp; Log Analysis</strong>
           <ul class="clean">
-            <li>Technical troubleshooting for Windows endpoints and user applications</li>
-            <li>Password resets, account management, and basic access control tasks</li>
-            <li>Security awareness reinforcement and safe system usage coaching</li>
+            <li>Elastic SIEM, Filebeat, KQL</li>
+            <li>Splunk, Sysmon, Windows Event Logs</li>
+            <li>Zeek network telemetry</li>
           </ul>
         </div>
+
         <div class="card">
-          <strong>Tools</strong>
+          <strong>Detection &amp; Investigation</strong>
           <ul class="clean">
-            <li>Wireshark, Nmap, Nessus (lab), Splunk (lab)</li>
-            <li>FTK Imager, Autopsy, Autoruns, VirusTotal</li>
+            <li>MITRE ATT&amp;CK alignment</li>
+            <li>Authentication monitoring (Event ID 4625)</li>
+            <li>IOC baselining and validation</li>
           </ul>
         </div>
+
         <div class="card">
-          <strong>Platforms</strong>
+          <strong>Endpoint, DFIR, and Tools</strong>
           <ul class="clean">
-            <li>Windows, basic Linux</li>
-            <li>Active Directory (user and group management exposure)</li>
-            <li>Office 365; basic familiarity with cloud services (coursework)</li>
+            <li>Autopsy, FTK Imager, Sysinternals (Autoruns)</li>
+            <li>Wireshark, Nmap, Nessus/Tenable (lab)</li>
+            <li>VirusTotal</li>
           </ul>
         </div>
+
         <div class="card">
-          <strong>Programming & Scripting</strong>
+          <strong>Scripting &amp; Platforms</strong>
           <ul class="clean">
-            <li>Python and PowerShell (automation and parsing tasks)</li>
-            <li>Java and R (academic projects)</li>
+            <li>Python, PowerShell, Bash</li>
+            <li>Windows, Linux, Active Directory</li>
+            <li>AWS/Azure fundamentals</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <section>
-      <h3>Certifications</h3>
-      <ul class="clean">
-        <li>Python Basics for Data Science — IBM, 2024</li>
-        <li>R Programming Fundamentals — Stanford Online, 2024</li>
-      </ul>
-    </section>
-
-    <section>
+    <section class="section">
       <h3>Education</h3>
       <ul class="clean">
-        <li><strong>M.S. Cybersecurity Technology</strong>, University of Maryland Global Campus — GPA 4.0</li>
-        <li><strong>B.S. Information Technology</strong>, University of Phoenix — Magna Cum Laude</li>
-        <li><strong>A.A. Information Technology</strong>, Central Piedmont Community College</li>
-        <li><strong>A.S. Architectural Drawing</strong>, Islamic Azad University</li>
+        <li><strong>M.S. Cybersecurity Technology</strong> — University of Maryland Global Campus (GPA 4.0; President’s List)</li>
+        <li><strong>B.S. Information Technology</strong> — University of Phoenix (Magna Cum Laude)</li>
+        <li><strong>A.A. Information Technology</strong> — Central Piedmont Community College</li>
+        <li><strong>A.S. Architectural Drawing</strong> — Islamic Azad University</li>
       </ul>
     </section>
 
-    <section id="contact">
+    <section class="section">
+      <h3>Certifications &amp; Training</h3>
+      <ul class="clean">
+        <li>Python Basics for Data Science — IBM</li>
+        <li>R Programming Fundamentals</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
       <h3>Contact</h3>
-      <p>
+      <div class="split">
         <a class="btn" href="mailto:sadvandniknaz0@gmail.com">sadvandniknaz0@gmail.com</a>
         <a class="btn" href="https://www.linkedin.com/in/niknaz-sadehvandi-a34179325" target="_blank" rel="noopener">LinkedIn</a>
-      </p>
+        <a class="btn" href="https://github.com/niknaz-65" target="_blank" rel="noopener">GitHub</a>
+      </div>
     </section>
 
     <footer>
       © <span id="y"></span> Niknaz Sadehvandi
     </footer>
   </main>
-  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

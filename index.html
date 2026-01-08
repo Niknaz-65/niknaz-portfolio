@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,10 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Niknaz Sadehvandi — Cybersecurity Analyst Portfolio</title>
 
-  <!-- Keep this if you later move the CSS into styles.css -->
   <link rel="stylesheet" href="styles.css" />
 
-  <meta name="description" content="Portfolio of Niknaz Sadehvandi, Cybersecurity Analyst with hands-on SIEM monitoring, endpoint telemetry, and SOC investigations. Elastic SIEM, Sysmon, Zeek, Splunk." />
+  <meta name="description" content="Portfolio of Niknaz Sadehvandi, Cybersecurity Analyst with hands-on SIEM monitoring, endpoint telemetry, log analysis, and SOC investigations. Elastic SIEM, Sysmon, Zeek, Splunk." />
   <meta name="robots" content="index,follow" />
 
   <style>
@@ -109,12 +109,11 @@
 
       <p class="lead">
         Cybersecurity Analyst with hands-on experience in SIEM monitoring, endpoint telemetry, log analysis, and SOC investigations.
-        Founder of Nikki IT &amp; Security Consulting delivering Elastic SIEM ingestion pipelines, Sysmon and Zeek telemetry,
+        Founder of Nikki IT &amp; Security Consulting, delivering Elastic SIEM ingestion pipelines, Sysmon and Zeek telemetry,
         and Windows security assessments aligned with MITRE ATT&amp;CK.
       </p>
 
       <div class="btnrow">
-        <!-- Match your resume filename -->
         <a class="btn primary" href="Niknaz_Sadehvandi_Cybersecurity_Analyst_Resume.pdf" target="_blank" rel="noopener">
           Download Resume (PDF)
         </a>
@@ -124,7 +123,7 @@
       </div>
 
       <p class="small">
-        Tip: keep the PDF name exactly <span class="kbd">Niknaz_Sadehvandi_Cybersecurity_Analyst_Resume.pdf</span> in the same repo folder as this page.
+        Keep the PDF name exactly <span class="kbd">Niknaz_Sadehvandi_Cybersecurity_Analyst_Resume.pdf</span> in the same repo folder as this page.
       </p>
     </header>
 
@@ -135,8 +134,8 @@
         <article class="card">
           <h4>Elastic SIEM Endpoint Pipeline (Sysmon + Fleet)</h4>
           <p>
-            Built a Fleet-managed endpoint telemetry pipeline using Sysmon v15+ and validated visibility for investigations
-            (process creation, network connections, PowerShell logging) with KQL.
+            Engineered a Fleet-managed endpoint telemetry pipeline using Sysmon v15+; ingested process creation, network connection,
+            and PowerShell events; validated SOC visibility with KQL.
           </p>
           <div class="tags">
             <span class="tag">Elastic SIEM</span><span class="tag">Sysmon</span><span class="tag">KQL</span><span class="tag">SOC</span>
@@ -144,10 +143,10 @@
         </article>
 
         <article class="card">
-          <h4>Zeek Network Telemetry Ingestion (Filebeat Module)</h4>
+          <h4>Zeek Network Telemetry Ingestion (Filebeat)</h4>
           <p>
-            Deployed Zeek sensor on Ubuntu and ingested structured logs (conn/dns/http) into Elastic SIEM via Filebeat;
-            validated real-time telemetry in Kibana Discover (1,500+ events).
+            Deployed Zeek sensor on Ubuntu 24.04; ingested 1,500+ structured network events into Elastic SIEM via Filebeat;
+            validated real-time telemetry in Kibana Discover.
           </p>
           <div class="tags">
             <span class="tag">Zeek</span><span class="tag">Filebeat</span><span class="tag">Elastic</span><span class="tag">Network Logs</span>
@@ -157,19 +156,19 @@
         <article class="card">
           <h4>Windows Endpoint Security Audit &amp; Hardening</h4>
           <p>
-            Assessed Windows authentication failures (Event ID 4625), audit policy, firewall rules, and active connections
-            (<span class="kbd">netstat -ano</span>); baselined activity and produced risk-reduction recommendations.
+            Conducted endpoint security audits analyzing authentication failures, firewall rules, and active connections;
+            validated outbound traffic and delivered hardening recommendations.
           </p>
           <div class="tags">
-            <span class="tag">Windows Event Logs</span><span class="tag">Hardening</span><span class="tag">IR</span>
+            <span class="tag">Windows Event Logs</span><span class="tag">Hardening</span><span class="tag">Defense</span>
           </div>
         </article>
 
         <article class="card">
           <h4>SOC Dashboarding &amp; Alert Triage (Splunk)</h4>
           <p>
-            Built dashboards and detections for Windows security events; created triage views to quickly spot anomalous
-            authentication and system activity.
+            Built dashboards and detections for Windows security events; created triage views to spot anomalous authentication
+            and system activity.
           </p>
           <div class="tags">
             <span class="tag">Splunk</span><span class="tag">SIEM</span><span class="tag">Detection</span>
@@ -177,9 +176,9 @@
         </article>
 
         <article class="card">
-          <h4>Network Recon &amp; Report Automation (Python + Nmap)</h4>
+          <h4>Network Recon &amp; SOC Automation (Python + Nmap)</h4>
           <p>
-            Developed an automation wrapper for Nmap-based discovery with structured output and HTML report generation.
+            Developed an automation wrapper for Nmap-based discovery with structured output and report generation.
           </p>
           <div class="tags">
             <span class="tag">Python</span><span class="tag">Nmap</span><span class="tag">Automation</span>
@@ -190,7 +189,7 @@
           <h4>Entry-Level DFIR &amp; Incident Investigation Labs</h4>
           <p>
             Investigated DFIR scenarios involving IIS logs, Base64 decoding, SSH-based exfiltration, and endpoint artifacts
-            using Autopsy, FTK Imager, and Wireshark; extracted IOCs and documented findings.
+            using Autopsy, FTK Imager, and Wireshark.
           </p>
           <div class="tags">
             <span class="tag">DFIR</span><span class="tag">Autopsy</span><span class="tag">FTK Imager</span><span class="tag">Wireshark</span>
@@ -207,33 +206,35 @@
           <h4>Nikki IT &amp; Security Consulting — Founder &amp; Cybersecurity Consultant</h4>
           <p class="small"><em>Dec 2025 – Present • Remote</em></p>
           <ul class="clean">
-            <li>Engineered Fleet-managed Elastic SIEM ingestion for Sysmon (Event ID 1/3) and PowerShell logging (Event ID 4104); validated investigation workflows with KQL.</li>
-            <li>Deployed Zeek + Filebeat module and verified structured network telemetry in Kibana Discover (1,500+ events).</li>
-            <li>Performed Windows endpoint audits: Event ID 4625 review, audit policy checks, firewall rules, and connection/process correlation for IOC baselining.</li>
+            <li>Engineered Fleet-managed Elastic SIEM endpoint pipeline using Sysmon v15+; ingested process creation, network connection, and PowerShell events; validated SOC visibility using KQL.</li>
+            <li>Deployed Zeek network sensor on Ubuntu 24.04; ingested 1,500+ structured network events into Elastic SIEM via Filebeat; validated real-time telemetry in Kibana Discover.</li>
+            <li>Conducted Windows endpoint security audits analyzing authentication failures, firewall rules, and active connections; validated outbound traffic and delivered hardening recommendations.</li>
           </ul>
         </article>
 
         <article class="card">
           <h4>Sunset Auto Sales — Cybersecurity / IT Support Technician</h4>
-          <p class="small"><em>Jan 2020 – Present • Charlotte area</em></p>
+          <p class="small"><em>March 2019 – Present • Charlotte area</em></p>
           <ul class="clean">
-            <li>Performed malware investigations, log queries, endpoint troubleshooting, MFA enforcement, imaging, and security documentation.</li>
+            <li>Supported and secured Windows endpoints; performed malware investigations, MFA enforcement, endpoint troubleshooting, and system imaging.</li>
+            <li>Maintained security documentation and resolved high-volume support tickets across operational systems.</li>
           </ul>
         </article>
 
         <article class="card">
           <h4>Kafpoush — IT Administrator / Helpdesk</h4>
-          <p class="small"><em>Jan 2012 – Jan 2018</em></p>
+          <p class="small"><em>Oct 2011 – Feb 2016</em></p>
           <ul class="clean">
-            <li>Handled malware remediation, patch management, access control updates, forensic-style system checks, and incident documentation.</li>
+            <li>Executed malware remediation, patch management, access control updates, and forensic-style system checks.</li>
+            <li>Provided Tier 1–2 support, incident documentation, and endpoint maintenance.</li>
           </ul>
         </article>
 
         <article class="card">
           <h4>Ganjineh — Technical Assistant</h4>
-          <p class="small"><em>Jan 2008 – Jan 2010</em></p>
+          <p class="small"><em>Oct 2008 – July 2010</em></p>
           <ul class="clean">
-            <li>Installed and verified CCTV, access control systems, and network infrastructure; supported troubleshooting and maintenance.</li>
+            <li>Installed and supported CCTV, access control systems, and network infrastructure; performed troubleshooting and routine maintenance.</li>
           </ul>
         </article>
       </div>
@@ -256,16 +257,16 @@
           <strong>Detection &amp; Investigation</strong>
           <ul class="clean">
             <li>MITRE ATT&amp;CK alignment</li>
-            <li>Authentication monitoring (Event ID 4625)</li>
-            <li>IOC baselining and validation</li>
+            <li>Alert triage and log analysis</li>
+            <li>Authentication monitoring</li>
           </ul>
         </div>
 
         <div class="card">
           <strong>Endpoint, DFIR, and Tools</strong>
           <ul class="clean">
-            <li>Autopsy, FTK Imager, Sysinternals (Autoruns)</li>
-            <li>Wireshark, Nmap, Nessus/Tenable (lab)</li>
+            <li>Autopsy, FTK Imager, Autoruns</li>
+            <li>Wireshark, Nmap, Nessus/Tenable</li>
             <li>VirusTotal</li>
           </ul>
         </div>
@@ -295,7 +296,6 @@
       <h3>Certifications &amp; Training</h3>
       <ul class="clean">
         <li>Python Basics for Data Science — IBM</li>
-        <li>R Programming Fundamentals</li>
       </ul>
     </section>
 
@@ -318,3 +318,4 @@
   </script>
 </body>
 </html>
+```

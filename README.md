@@ -1,63 +1,68 @@
 # Niknaz Sadehvandi – IT Support & Cybersecurity Projects
 
 Welcome to my professional portfolio repository.  
-I work in IT Support and Helpdesk, and I reinforce that experience with hands-on cybersecurity projects in log analysis, digital forensics labs, malware sandboxing, and network scanning.
+I am a **Cybersecurity Analyst with an IT Support background**, combining real-world endpoint support experience with hands-on SOC, DFIR, and SIEM projects.
+
+This repository documents practical security work aligned with analyst and junior incident response roles.
 
 ---
 
 ## About Me
 
-- M.S. Cybersecurity Technology – University of Maryland Global Campus (GPA 4.0)  
-- B.S. Information Technology – University of Phoenix (Magna Cum Laude)  
-- Several years of experience in IT support, troubleshooting Windows systems, and managing user accounts  
-- Hands-on security lab work in Splunk log analysis, DFIR-style investigations, and basic vulnerability scanning  
-- Strong documentation skills and clear communication with users, engineers, and instructors
-
+- **M.S. Cybersecurity Technology** — University of Maryland Global Campus (GPA 4.0, President’s List)
+- **B.S. Information Technology** — University of Phoenix (Magna Cum Laude)
+- **Cybersecurity Analyst & Founder**, Nikki IT & Security Consulting (Dec 2025–Present)
+- 10+ years of experience supporting Windows endpoints, troubleshooting security issues, and managing user access
+- Hands-on SOC-style projects in SIEM monitoring, DFIR investigations, malware analysis, and network reconnaissance
+- Strong documentation and reporting skills for technical and non-technical stakeholders
 
 
 ---
 
 ## Featured Projects
 
-- **Windows Intrusion Forensics (Lab Project)**  
-  Analyzed a Windows image using FTK Imager, Autopsy, and Autoruns to identify persistence mechanisms, suspicious processes, and possible exfiltration paths. Documented findings and drafted a remediation plan including system rebuild and IP/domain blocking.
+- **Windows Intrusion Forensics (DFIR Lab)**  
+  Analyzed a compromised Windows image using FTK Imager, Autopsy, and Autoruns to identify persistence mechanisms, suspicious processes, and potential exfiltration paths. Reconstructed timelines and produced remediation recommendations.
 
-- **Phishing and Email Analysis (Project)**  
-  Reviewed sample phishing emails, inspected headers and URLs, extracted indicators for reputation checks, and created a simple response checklist and user guidance to reduce repeat clickers in a simulated environment.
+- **SOC Dashboarding & Alert Triage (Splunk)**  
+  Built dashboards and analyst triage views for Windows authentication failures, privilege events, and anomalous activity to support investigation and escalation workflows.
 
-- **Network Recon and Log Analysis Toolkit (Python)**  
-  Built a Python script that automates Nmap scans and generates HTML summaries of open ports and services. Combined this with basic Splunk searches to visualize authentication patterns and detect anomalous login activity.
+- **Network Reconnaissance & SOC Automation (Python)**  
+  Developed an Nmap-based automation wrapper that parses scan output and generates structured HTML reports. Used results to support vulnerability analysis and security reporting.
 
-- **Digital Forensics Labs (UMGC)**  
-  Worked through multiple lab scenarios involving IIS logs, persistence artifacts, unauthorized accounts, and SSH-based data exfiltration, focusing on evidence collection and analysis steps. 
+- **Threat Intelligence & Malware Analysis**  
+  Conducted static and behavioral malware analysis in lab environments. Processed and enriched 30,000+ indicators, extracted IOCs, and mapped activity to known techniques.
+
+- **Digital Forensics & Incident Response Labs (UMGC)**  
+  Investigated DFIR scenarios involving IIS logs, Base64 decoding, SSH-based exfiltration, and endpoint artifacts using Autopsy, FTK Imager, Wireshark, and supporting tools.
 
 ---
 
 ## Technical Skills
 
-- **IT Support and Access Management**  
-  - Troubleshooting Windows endpoints and user applications  
-  - Password resets, account management, and basic access control tasks  
-  - Workstation setup, imaging, and basic network connectivity support  
+### IT Support & Endpoint Operations
+- Windows endpoint troubleshooting and malware triage  
+- Account management, password resets, MFA support  
+- Workstation setup, imaging, and connectivity support  
 
-- **Security and Analysis (Lab/Projects)**  
-  - Log review, basic incident triage, and IOC extraction  
-  - Intro DFIR workflows (disk images, timelines, persistence checks)  
-  - Vulnerability scanning in lab environments  
+### Security & Analysis
+- SIEM log review, alert triage, and IOC extraction  
+- DFIR workflows: disk images, timelines, persistence analysis  
+- Vulnerability scanning in controlled lab environments  
 
-- **Tools**  
-  - Splunk (lab), Wireshark, Nmap, Nessus (lab)  
-  - FTK Imager, Autopsy, Autoruns, VirusTotal  
+### Tools
+- Elastic SIEM, Splunk (lab)  
+- Wireshark, Nmap, Nessus/Tenable (lab)  
+- FTK Imager, Autopsy, Autoruns, VirusTotal  
 
-- **Platforms**  
-  - Windows, basic Linux  
-  - Active Directory exposure (users/groups, permissions)  
-  - Office 365; basic familiarity with cloud concepts via coursework  
+### Platforms
+- Windows, Linux (fundamentals)  
+- Active Directory (users, groups, permissions)  
+- Office 365; AWS and Azure fundamentals  
 
-- **Programming and Scripting**  
-  - Python and PowerShell (automation, parsing, small tools)  
-  - Java and R (academic projects)
-
+### Programming & Scripting
+- Python, PowerShell, Bash  
+- Java and R (academic projects)
 
 ---
 
@@ -69,14 +74,14 @@ I work in IT Support and Helpdesk, and I reinforce that experience with hands-on
 ---
 
 ## 🔹 Resume & Portfolio
-📄 [Download Resume (PDF)](Niknaz_Sadehvandi_IT_Support_Resume.pdf)    
-🌐 [Live Portfolio Site](https://niknaz-65.github.io/niknaz-portfolio/)  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/niknaz-sadehvandi-a34179325)  
+📄 **Resume:** [Download PDF](Niknaz_Sadehvandi_Cybersecurity_Analyst_Resume.pdf)  
+🌐 **Portfolio:** https://niknaz-65.github.io  
+🔗 **LinkedIn:** https://www.linkedin.com/in/niknaz-sadehvandi-a34179325  
 
 ---
 
 ## 🔹 Contact
-📧 Email: [sadvandniknaz0@gmail.com](mailto:sadvandniknaz0@gmail.com)  
+📧 Email: sadvandniknaz0@gmail.com   
 
 ---
 ⭐ Feel free to explore this portfolio and connect with me if you’d like to collaborate or discuss cybersecurity opportunities.  

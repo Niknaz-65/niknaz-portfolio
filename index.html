@@ -31,7 +31,7 @@
 
       <p class="lead">
         Cybersecurity Analyst with hands-on experience in SIEM monitoring, endpoint telemetry, log analysis, and SOC investigations.
-        Founder of Nikki IT &amp; Security Consulting, delivering Elastic SIEM ingestion pipelines, Sysmon and Zeek telemetry,
+        Founder of NS Cybersecurity, delivering Elastic SIEM ingestion pipelines, Sysmon and Zeek telemetry,
         and Windows security assessments aligned with MITRE ATT&amp;CK, NIST, and SOX ITGC.
       </p>
 
@@ -43,10 +43,6 @@
         <a class="btn" href="#skills">Skills</a>
         <a class="btn" href="#contact">Contact</a>
       </div>
-
-      <p class="small">
-        Keep the PDF name exactly <span class="kbd">Niknaz_Sadehvandi_Cybersecurity_Analyst_Resume.pdf</span> in the same folder as this page.
-      </p>
     </header>
 
     <section id="projects" class="section">
@@ -54,7 +50,7 @@
       <div class="grid">
         <article class="card">
           <h4>Elastic SIEM Endpoint Pipeline (Sysmon + Fleet)</h4>
-          <p>Fleet-managed endpoint telemetry using Sysmon; validated SOC visibility with KQL.</p>
+          <p>Fleet-managed endpoint telemetry using Sysmon v15+; ingested process, network, and PowerShell events and validated SOC visibility in Kibana Discover and Elastic Security.</p>
           <div class="tags">
             <span class="tag">Elastic SIEM</span><span class="tag">Sysmon</span><span class="tag">KQL</span>
           </div>
@@ -62,7 +58,7 @@
 
         <article class="card">
           <h4>Zeek Network Telemetry Ingestion (Filebeat)</h4>
-          <p>Deployed Zeek on Ubuntu; ingested 1,500+ network events into Elastic SIEM via Filebeat; validated in Kibana Discover.</p>
+          <p>Deployed Zeek on Ubuntu 24.04; ingested 1,500+ structured network events into Elastic SIEM via Filebeat and confirmed real-time DNS and connection visibility in Kibana Discover.</p>
           <div class="tags">
             <span class="tag">Zeek</span><span class="tag">Filebeat</span><span class="tag">Elastic</span>
           </div>
@@ -70,9 +66,33 @@
 
         <article class="card">
           <h4>SOC Dashboarding &amp; Alert Triage (Splunk)</h4>
-          <p>Built dashboards and detections for Windows security events to support triage workflows.</p>
+          <p>Built SPL detections and triage dashboards for Windows authentication failures and suspicious activity, enabling quick pivots by host, user, and event ID.</p>
           <div class="tags">
             <span class="tag">Splunk</span><span class="tag">SIEM</span><span class="tag">Detection</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h4>Windows Intrusion Forensics (DFIR Lab)</h4>
+          <p>Investigated a simulated web server intrusion using IIS logs, Base64 decoding, SSH-based exfiltration review, and persistence analysis with Autoruns, FTK Imager, and Autopsy.</p>
+          <div class="tags">
+            <span class="tag">DFIR</span><span class="tag">Autopsy</span><span class="tag">FTK Imager</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h4>Network Reconnaissance &amp; SOC Automation (Python)</h4>
+          <p>Developed an Nmap-based Python wrapper that runs enumeration profiles, parses XML output, and generates HTML reports to support recon and vulnerability analysis.</p>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">Nmap</span><span class="tag">Automation</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h4>IOC Hunting &amp; Threat Intelligence Enrichment</h4>
+          <p>Processed and enriched tens of thousands of indicators in a lab setting, performed reputation checks, and extracted IOCs to simulate CTI workflows supporting SOC investigations.</p>
+          <div class="tags">
+            <span class="tag">Threat Intel</span><span class="tag">IOC</span><span class="tag">Enrichment</span>
           </div>
         </article>
       </div>
@@ -84,17 +104,45 @@
         <div class="card">
           <strong>SIEM &amp; Log Analysis</strong>
           <ul class="clean">
-            <li>Elastic SIEM, Filebeat, KQL</li>
-            <li>Splunk, Sysmon, Windows Event Logs</li>
-            <li>Zeek telemetry</li>
+            <li>Elastic SIEM, Filebeat, Kibana, KQL</li>
+            <li>Splunk, SPL dashboards and searches</li>
+            <li>Sysmon, Windows Event Logs, Zeek telemetry</li>
           </ul>
         </div>
+
         <div class="card">
-          <strong>DFIR &amp; Tools</strong>
+          <strong>DFIR &amp; Investigation</strong>
           <ul class="clean">
             <li>Autopsy, FTK Imager, Autoruns</li>
-            <li>Wireshark, Nmap, Nessus/Tenable (lab)</li>
-            <li>VirusTotal</li>
+            <li>Timeline and persistence analysis</li>
+            <li>IOC extraction and documentation</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <strong>Networking &amp; Recon</strong>
+          <ul class="clean">
+            <li>Wireshark packet analysis</li>
+            <li>Nmap scanning and profiling</li>
+            <li>Nessus/Tenable (lab)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <strong>Programming &amp; Scripting</strong>
+          <ul class="clean">
+            <li>Python for automation and parsing</li>
+            <li>PowerShell for Windows administration</li>
+            <li>Bash for Linux automation</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <strong>Frameworks &amp; Compliance</strong>
+          <ul class="clean">
+            <li>MITRE ATT&amp;CK mapping</li>
+            <li>NIST-aligned security recommendations</li>
+            <li>Familiarity with SOX ITGC controls</li>
           </ul>
         </div>
       </div>

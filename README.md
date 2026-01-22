@@ -1,6 +1,6 @@
 # Niknaz Sadehvandi – Cybersecurity Analyst | SIEM & SOC Portfolio
 
-This repository supports my cybersecurity portfolio site and documents hands-on work in SIEM monitoring, endpoint and network telemetry, DFIR, and SOC-style investigations.
+This repository supports my cybersecurity portfolio site and presents practical work in SIEM monitoring, endpoint and network telemetry, DFIR, and SOC investigations.
 
 ---
 
@@ -20,7 +20,7 @@ This repository supports my cybersecurity portfolio site and documents hands-on 
 - **Endpoint Telemetry:** Sysmon, Windows Event Logs, process/network/authentication events  
 - **Network Telemetry:** Zeek, Filebeat, Kibana Discover validation, Wireshark analysis  
 - **DFIR & Investigation:** Autopsy, FTK Imager, Autoruns, artifact review, IOC extraction  
-- **Framework Alignment:** MITRE ATT&CK, NIST, SOX ITGC (familiarity)  
+- **Framework Alignment:** MITRE ATT&CK, NIST, SOX ITGC  
 - **Automation & Scripting:** Python, PowerShell, Bash  
 
 ---
@@ -36,11 +36,11 @@ This repository supports my cybersecurity portfolio site and documents hands-on 
 - **Splunk Detections & Dashboards (SOC Monitoring)**  
   Created SPL searches and dashboards for failed logons and suspicious process activity, enabling triage by host, user, and event ID.
 
-- **Windows Intrusion Forensics (DFIR Lab)**  
+- **Windows Intrusion Forensics (DFIR)**  
   Investigated a simulated intrusion using IIS logs, Base64 decoding, SSH‑based exfiltration review, and persistence analysis with Autoruns, FTK Imager, Autopsy, and supporting tools.
 
 - **Network Reconnaissance & SOC Automation (Python)**  
-  Developed an Nmap‑based automation wrapper that parses XML output and generates HTML reports to support recon and vulnerability analysis.
+  Developed an Nmap-based automation wrapper that parses XML output and generates analyst-ready HTML reports to support reconnaissance and vulnerability analysis.
 
 ---
 
@@ -63,5 +63,5 @@ This repository supports my cybersecurity portfolio site and documents hands-on 
 
 - 📧 Email: sadvandniknaz0@gmail.com  
 
-Feel free to explore these projects and reach out about SOC analyst, DFIR, or cybersecurity analyst opportunities.
+Contact me regarding SOC analyst, DFIR, or cybersecurity analyst opportunities.
 ```

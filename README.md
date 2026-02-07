@@ -1,4 +1,4 @@
-# Niknaz Sadehvandi – Cybersecurity Analyst | SIEM & SOC Portfolio
+# Nikki Sadvand – Cybersecurity Analyst | SIEM & SOC Portfolio
 
 This repository supports my cybersecurity portfolio site and presents practical work in SIEM monitoring, endpoint and network telemetry, DFIR, and SOC investigations.
 
@@ -52,10 +52,10 @@ This repository supports my cybersecurity portfolio site and presents practical 
 
 ## Resume & Portfolio
 
-- **Resume (PDF):** `Niknaz_Sadehvandi_Cybersecurity_Analyst_Resume.pdf`  
-- **Portfolio Site:** https://niknaz-65.github.io  
-- **GitHub Profile:** https://github.com/niknaz-65  
-- **LinkedIn:** https://www.linkedin.com/in/niknaz-sadehvandi-a34179325  
+- **Resume (PDF):** Nikki_Sadvand_Cybersecurity_Analyst_Resume.pdf
+- **Portfolio Site:** https://Nikki-65.github.io  
+- **GitHub Profile:** https://github.com/Nikki-65  
+- **LinkedIn:** https://www.linkedin.com/in/Nikki-sadvand-a34179325  
 
 ---
 

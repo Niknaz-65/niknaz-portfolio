@@ -7,7 +7,7 @@ This repository supports my cybersecurity portfolio site and presents practical 
 ## About Me
 
 - **Cybersecurity Analyst** with experience in SIEM monitoring, endpoint telemetry, DFIR, and SOC investigations  
-- **Founder & Cybersecurity Consultant – NS Cybersecurity** (Dec 2024–Present)  
+- **Security Operations Analyst — NS Cybersecurity (Independent Lab Environment)** (Dec 2024–Present)  
 - **M.S. Cybersecurity Technology** — University of Maryland Global Campus (GPA 4.0, President’s List)  
 - **B.S. Information Technology** — University of Phoenix (Magna Cum Laude)  
 - Background in **Windows endpoint support**, troubleshooting, and security hardening  

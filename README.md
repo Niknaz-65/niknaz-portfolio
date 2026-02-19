@@ -1,22 +1,22 @@
 # Nikki Sadvand – Cybersecurity Analyst | SIEM & SOC Portfolio
 
-This repository supports my cybersecurity portfolio site and presents practical work in SIEM monitoring, endpoint and network telemetry, DFIR, and SOC investigations.
+This repository presents production-oriented cybersecurity implementations across SIEM architecture, detection engineering, telemetry pipelines, and evidence-driven DFIR investigations.
 
 ---
 
 ## About Me
 
-- **Cybersecurity Analyst** with experience in SIEM monitoring, endpoint telemetry, DFIR, and SOC investigations  
-- **Security Operations Analyst — NS Cybersecurity (Independent Lab Environment)** (Dec 2024–Present)  
+- **Cybersecurity Analyst** focused on SIEM architecture, telemetry engineering, and evidence-driven detection workflows  
+- **Security Operations Analyst — NS Cybersecurity (Independent Research & Lab Environment)** (Dec 2024–Present)  
 - **M.S. Cybersecurity Technology** — University of Maryland Global Campus (GPA 4.0, President’s List)  
 - **B.S. Information Technology** — University of Phoenix (Magna Cum Laude)  
-- Background in **Windows endpoint support**, troubleshooting, and security hardening  
+- Foundation in Windows endpoint administration, troubleshooting, and security hardening  
 
 ---
 
 ## Core Capabilities
 
-- **SIEM & SOC Monitoring:** Elastic SIEM, Splunk, alert triage, KQL/SPL, dashboards  
+- **SIEM & Detection Engineering:** Elastic SIEM, Splunk, alert triage, KQL/SPL query development, detection dashboards
 - **Endpoint Telemetry:** Sysmon, Windows Event Logs, process/network/authentication events  
 - **Network Telemetry:** Zeek, Filebeat, Kibana Discover validation, Wireshark analysis  
 - **DFIR & Investigation:** Autopsy, FTK Imager, Autoruns, artifact review, IOC extraction  
@@ -28,19 +28,15 @@ This repository supports my cybersecurity portfolio site and presents practical 
 ## Featured Projects
 
 - **Elastic SIEM + Fleet + Sysmon (Endpoint Telemetry Pipeline)**  
-  Built a Fleet‑managed Elastic SIEM pipeline using Sysmon v15+ to ingest process, network, and PowerShell events, then validated visibility in Kibana Discover and Elastic Security.
-
+  Built a Fleet-managed Elastic SIEM pipeline using Sysmon v15+ to ingest process, network, and PowerShell events, validating event visibility and rule execution behavior within Kibana Discover and Elastic Security detection workflows.
 - **Zeek + Filebeat → Elastic SIEM (Network Telemetry)**  
-  Deployed a Zeek sensor on Ubuntu 24.04, ingested 1,500+ structured DNS and connection events via Filebeat, and verified real‑time telemetry and detections in Elastic.
-
-- **Splunk Detections & Dashboards (SOC Monitoring)**  
-  Created SPL searches and dashboards for failed logons and suspicious process activity, enabling triage by host, user, and event ID.
-
+  Deployed a Zeek sensor on Ubuntu 24.04, ingested 1,500+ structured DNS and connection events via Filebeat, and validated structured telemetry ingestion and cross-source detection correlation in Elastic Security.
+- **Splunk Detection Engineering & Dashboards**  
+  Built SPL detections monitoring Event ID 4625 and 4672, enabling rapid host/user pivot analysis through consolidated SOC dashboards.
 - **Windows Intrusion Forensics (DFIR)**  
-  Investigated a simulated intrusion using IIS logs, Base64 decoding, SSH‑based exfiltration review, and persistence analysis with Autoruns, FTK Imager, Autopsy, and supporting tools.
-
+  Investigated a simulated intrusion through IIS log analysis, Base64 artifact decoding, SSH exfiltration review, and persistence examination using Autoruns, FTK Imager, and Autopsy.
 - **Network Reconnaissance & SOC Automation (Python)**  
-  Developed an Nmap-based automation wrapper that parses XML output and generates analyst-ready HTML reports to support reconnaissance and vulnerability analysis.
+  Developed an Nmap-based automation wrapper that parses XML output and generates analyst-ready HTML reports to streamline reconnaissance reporting and vulnerability surface identification.
 
 ---
 
@@ -61,7 +57,7 @@ This repository supports my cybersecurity portfolio site and presents practical 
 
 ## Contact
 
-- 📧 Email: sadvandniknaz0@gmail.com  
+Email: sadvandniknaz0@gmail.com
 
-Contact me regarding SOC analyst, DFIR, or cybersecurity analyst opportunities.
+Seeking remote or hybrid SOC Analyst, SIEM Engineer, or DFIR opportunities.
 ```
